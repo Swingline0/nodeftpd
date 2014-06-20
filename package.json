@@ -9,7 +9,7 @@
     "jsftp": "*"
   },
   "scripts": {
-    "test": "mocha specs/* --globals commandArg"
+    "test": "mocha test/specs/* --globals commandArg"
   },
   "description": "Fork of alanszlosek/nodeftpd - a simple FTP server written in Node.JS",
   "main": "index.js",

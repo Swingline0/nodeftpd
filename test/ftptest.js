@@ -1,6 +1,6 @@
 var sys = require("sys");
 var net = require("net");
-var ftpd = require("./ftpd");
+var ftpd = require("../");
 var spf = require("./sprintf");
 ftpd.createServer("localhost").listen(21);
 

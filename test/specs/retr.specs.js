@@ -1,5 +1,5 @@
 require('should');
-var ftpd = require('../ftpd'), Ftp = require("jsftp"), fs = require("fs");
+var ftpd = require('../../'), Ftp = require("jsftp"), fs = require("fs");
 
 
 describe('RETR ftpd command', function(){

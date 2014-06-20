@@ -1,6 +1,6 @@
 var ftpd = require('../');
 
-var server = ftpd.createServer('127.0.0.1', '/home/alan/temporary/ftpd');
+var server = ftpd.createServer('127.0.0.1', '/Users/Eran/Desktop');
 
 // this event passes in the client socket which emits further events
 // but should recommend they don't do socket operations on it
